@@ -25,7 +25,7 @@ public class User{
         this(0, tradeDate, counterparty, commodity, volume, price, tradeType);
     }
 
-    // Getters
+    
     public int getTradeID() { return tradeID; }
     public Date getTradeDate() { return tradeDate; }
     public String getCounterparty() { return counterparty; }

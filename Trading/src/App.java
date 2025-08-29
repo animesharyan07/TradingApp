@@ -20,7 +20,7 @@ public class App {
         while (true) {
             System.out.println("\n--- Energy Trading System ---");
             System.out.println("1. Add a Trade");
-            System.out.println("2. View All Trades");
+            System.out.println("2. View Trades");
             System.out.println("3. Update Trade");
             System.out.println("4. Delete Trade");
             System.out.println("5. Search Trades");
