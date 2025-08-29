@@ -83,7 +83,7 @@ public class App {
                     ));
                 }
                 case 6 -> {
-                    System.out.println("Exiting... Bye!");
+                    System.out.println("Exiting");
                     sc.close();
                     return;
                 }

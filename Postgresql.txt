@@ -1,0 +1,11 @@
+CREATE TABLE Trades (
+    TradeID INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    TradeDate DATE NOT NULL,
+    Counterparty VARCHAR(100) NOT NULL,
+    Commodity VARCHAR(50) NOT NULL,
+    Volume DECIMAL(10,2) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    TradeType VARCHAR(10) CHECK (TradeType IN ('BUY','SELL'))
+);
+
+select * from Trades;
